@@ -103,4 +103,8 @@ export class SpeakerDetailPage {
 
     await actionSheet.present();
   }
+
+  sessionClick(item: string) {
+    console.log('Clicked', item);
+  }
 }
