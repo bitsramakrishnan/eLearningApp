@@ -191,7 +191,7 @@ export class SessionDetailPage {
       {
         title: 'Lesson 06 - State & The Context API',
         line1: 'State & The Context API',
-        },
+      },
       {
         title: 'Lesson 07 - Working With Forms',
         line1: 'Changing State From Another Component',
@@ -255,12 +255,63 @@ export class SessionDetailPage {
     id: '17',
     syllabus: [
       {
-        title: 'Lesson 01 - Features of TypeScript',
-        line1: 'Introduction',
-        line2: 'Introduction to TypeScript',
-        line3: 'Introduction to Data Types',
-        line4: 'Let vs Const'
+        title: 'Module 1: Introduction',
+        line1: 'In this module we will learn about what is the JavaScript and benefits of the language. We can also learn how write',
+        line2: 'the first JavaScript program.',
+        line3: 'JavaScript Introduction'
+      },
+      {
+        title: 'Module 2: Language Syntax',
+        line1: 'In this module we will learn about JavaScript language syntax and how to use the program level. And we can also',
+        line2: 'learn understanding the arrays.',
+        line3: 'Variable declaration',
+        line4: 'Operators',
+        line5: 'Control Statements',
+        line6: 'Error Handling',
+        line7: 'Understanding arrays',
+        line8: 'Function Declaration'
+      },
+      {
+        title: 'Module 3: Built In Functions',
+        line1: 'Deccansoft Software Services – Microsoft Silver Learning Partner JavaScript Syllabus',
+        line2: 'In this module we will learn about what are the built in functions in JavaScript and how use the JavaScript',
+        line3: 'functions.',
+        line4: 'Built In Functions',
+        line5: 'Standard Date and Time Functions',
+      },
+      {
+        title: 'Module 4: HTML Forms',
+        line1: 'In this module we will learn about how to use the forms. What are the properties in JavaScript. HTML form',
+        line2: 'validation can be done by JavaScript.',
+        line3: 'HTML Document object Model',
+        line4: 'Working with HTML form and its elements',
+      },
+      {
+        title: 'Module 5: HTML DOM',
+        line1: 'In this module we will learn about JavaScript can access and change all the elements of an HTML document.',
+        line2: 'HTML Document object Model',
+        line3: 'Working with HTML form and its elements',
+        line4: 'Other Document Object Model',
+      },
+      {
+        title: 'Module 6: Cookies',
+        line1: 'In this module we will learn about how to use the cookies. What are the advantages of the cookies and how to',
+        line2: 'create cookies?',
+        line3: 'Working with cookies',
+      },
+      {
+        title: 'Module 7: Working with Objects and Classes',
+        line1: 'In this module we will learn about what is the use of objects and how to call the data. We can also learn about',
+        line2: 'inheriting data.',
+        line3: 'Working with Objects',
+        line4: 'Call method in JavaScript',
+        line5: 'Inheritance in JavaScript using prototype',
+        line6: 'At the end of the course participants will be able to:',
+        line7: '1. HTML to define the content of web pages',
+        line8: '2. CSS to specify the layout of web pages',
+        line9: '3. JavaScript to program the behavior of web page',
       }
+
     ]
   },
   {
