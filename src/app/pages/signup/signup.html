@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Signup</ion-title>
+    <ion-title style="text-align:center"> eLearning App - Signup</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -20,6 +20,13 @@
         <ion-input [(ngModel)]="signup.username" name="username" type="text" placeholder="Please Enter UserName" #username="ngModel" required>
         </ion-input>
       </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked" color="primary">Email</ion-label>
+        <ion-input [(ngModel)]="signup.email" name="email" type="text" placeholder="Please Enter Email" #email="ngModel" required>
+        </ion-input>
+      </ion-item>
+
       <ion-text color="danger">
         <p [hidden]="username.valid || submitted == false" class="ion-padding-start">
           Username is required
@@ -39,7 +46,7 @@
 
       <ion-item>
         <ion-label position="stacked" color="primary">Confirm Password</ion-label>
-        <ion-input [(ngModel)]="signup.confirmPassword" placeholder="Please Enter confirmPassword" name="confirmPassword" type="password" #password="ngModel" required>
+        <ion-input [(ngModel)]="signup.confirmPassword" placeholder="Please Enter Confirm Password" name="confirmPassword" type="password" #password="ngModel" required>
         </ion-input>
       </ion-item>
       <ion-text color="danger">

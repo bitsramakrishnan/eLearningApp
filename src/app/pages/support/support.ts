@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
 import { AlertController, ToastController } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -15,12 +16,13 @@ export class SupportPage {
 
   constructor(
     public alertCtrl: AlertController,
+    public router: Router,
     public toastCtrl: ToastController
   ) { }
 
   async ionViewDidEnter() {
     const toast = await this.toastCtrl.create({
-      message: 'This does not actually send a support request.',
+      message: 'This will send a support request.',
       duration: 3000
     });
     await toast.present();
@@ -35,9 +37,10 @@ export class SupportPage {
 
       const toast = await this.toastCtrl.create({
         message: 'Your support request has been sent.',
-        duration: 3000
-      });
-      await toast.present();
+        duration: 5000
+      }).then( () => { this.router.navigateByUrl('/app/tabs/speakers');});
+
+      // await toast.present();
     }
   }
 
