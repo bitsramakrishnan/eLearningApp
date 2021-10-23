@@ -43,7 +43,7 @@
             {
               "name": "Migrating to Ionic",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "MySQL is an open-source relational database management system (RDBMS). A relational database organizes data into one or more data tables in which data types may be related to each other; these relations help structure the data. MySQL is a relational database management system based on SQL – Structured Query Language. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications.",
               "speakerNames": [
                 "Eva Eagle",
                 "Lionel Lion"
@@ -72,7 +72,7 @@
             {
               "name": "Ionic Pro",
               "location": "Grand Ballroom A",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "The main objective of this React course is to help you become familiar with the process and gain the skills you'll need to become a professional React developer. You will learn the fundamentals of React through self-paced and instructor-led training to understand and build React components and structure applications with Redux.",
               "speakerNames": [
                 "Charlie Cheetah"
               ],
@@ -127,7 +127,7 @@
             {
               "name": "Ionic in the Enterprise",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "This MongoDB® Training Certification course will help you master one of the most popular NoSQL databases. This course is designed to equip you with skills of a Mongo DB experienced professional. You will gain knowledge in mastering data modelling, ingestion, query and Sharding, and much more, to become job ready. The course covers a range of NoSQL and MongoDB® topics which will help you gain various development, administering, and engineering skills.",
               "speakerNames": [
                 "Paul Puppy"
               ],
@@ -141,7 +141,7 @@
             {
               "name": "Ionic Worldwide",
               "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications.",
               "speakerNames": [
                 "Gino Giraffe"
               ],
@@ -155,7 +155,7 @@
             {
               "name": "The Ionic Package",
               "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "AWS Developer training builds upon the skills learned from the AWS Technical Essentials course. This course will teach you how to write code and design scalable applications, implement application security and testing, and develop expertise with key AWS components such as S3, Dynamo DB, Elastic Beanstalk, and CloudFormation",
               "speakerNames": [
                 "Molly Mouse",
                 "Burt Bear"
@@ -175,7 +175,7 @@
             {
               "name": "Ionic Documentation",
               "location": "Grand Ballroom B",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user",
               "speakerNames": [
                 "Donald Duck"
               ],
@@ -189,7 +189,7 @@
             {
               "name": "UX in Ionic",
               "location": "Hall 3",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "This Java Training is designed to guide you through the concepts of Java from introductory techniques to advanced programming skills. This Java course will also provide you with the knowledge of Core Java 8, operators, arrays, loops, methods, and constructors while giving you hands-on experience in JDBC and JUnit framework.",
               "speakerNames": [
                 "Isabella Iguana",
                 "Ellie Elephant"
@@ -359,7 +359,7 @@
       "instagram": "ionicframework",
       "twitter": "ionicframework",
       "about": "",
-      "description": "AWS Developer training builds upon the skills learned from the AWS Technical Essentials course. This course will teach you how to write code and design scalable applications, implement application security and testing, and develop expertise with key AWS components such as S3, Dynamo DB, Elastic Beanstalk, and CloudFormation",
+      "description": "Angular course helps you understand the design of single-page applications and how Angular facilities their development. This Angular certification provides knowledge of concepts such as TypeScript, Bootstrap Grid System, dependency injections, SPA, forms, pipes, promises, observables, and Angular class testing.",
       "title": "Software Engineer",
       "location": "Everywhere",
       "email": "molly@example.com",

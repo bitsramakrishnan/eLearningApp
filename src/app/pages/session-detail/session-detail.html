@@ -17,61 +17,76 @@
 
 <ion-content>
   <div *ngIf="session" class="ion-padding">
-    <h1>{{session.name}}</h1>
-    <span *ngFor="let track of session?.tracks" [class]="'session-track-'+track.toLowerCase()">{{track}}</span>
+    <!-- <h1>{{session.name}}</h1> -->
+    <!-- <span *ngFor="let track of session?.tracks" [class]="'session-track-'+track.toLowerCase()">{{track}}</span> -->
+    <!-- <p>{{session.id}}</p> -->
     <p>{{session.description}}</p>
-    <ion-text color="medium">
+    <!-- <ion-text color="medium">
       {{session.timeStart}} &ndash; {{session.timeEnd}}
       <br /> {{session.location}}
-    </ion-text>
+    </ion-text> -->
+
   </div>
 
   <!-- List of Text Items -->
 
   <ion-list>
     <ion-list-header class="mb-10px">
-      Angular - Syllabus
+      {{selectedCourseName}} - Syllabus
     </ion-list-header>
     <div *ngFor="let syllabus of selectedSyllabus">
-    <ion-item-group>
-
-
-      <ion-item-divider>
-        <ion-label>{{syllabus.title}}</ion-label>
-      </ion-item-divider>
-
-      <ion-item  lines="none">
-        <ion-label>{{syllabus.line1}}</ion-label>
-      </ion-item>
-
-      <ion-item  lines="none">
-        <ion-label>{{syllabus.line2}}</ion-label>
-      </ion-item>
-      <ion-item  lines="none">
-        <ion-label>{{syllabus.line3}}</ion-label>
-      </ion-item>
-      <ion-item  lines="none">
-        <ion-label>{{syllabus.line4}}</ion-label>
-      </ion-item>
-    </ion-item-group>
-    
-  </div>
+      <ion-item-group>
+        <ion-item-divider>
+          <ion-label>{{syllabus.title}}</ion-label>
+        </ion-item-divider>
+        <ion-item lines="none" *ngIf="syllabus.line1">
+          <ion-label>{{syllabus.line1}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line2">
+          <ion-label>{{syllabus.line2}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line3">
+          <ion-label>{{syllabus.line3}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line4">
+          <ion-label>{{syllabus.line4}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line5">
+          <ion-label>{{syllabus.line5}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line6">
+          <ion-label>{{syllabus.line6}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line7">
+          <ion-label>{{syllabus.line7}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line8">
+          <ion-label>{{syllabus.line8}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line9">
+          <ion-label>{{syllabus.line9}}</ion-label>
+        </ion-item>
+        <ion-item lines="none" *ngIf="syllabus.line10">
+          <ion-label>{{syllabus.line10}}</ion-label>
+        </ion-item>
+      </ion-item-group>
+    </div>
   </ion-list>
-
+<hr>
   <ion-list>
-    <ion-item (click)="sessionClick('watch')" button>
+    <!-- <ion-item (click)="sessionClick('watch')" button>
       <ion-label color="primary">Watch</ion-label>
-    </ion-item>
-    <ion-item (click)="sessionClick('add to calendar')" button>
+    </ion-item> -->
+    <!-- <ion-item (click)="sessionClick('add to calendar')" button>
       <ion-label color="primary">Add to Calendar</ion-label>
-    </ion-item>
-    <ion-item (click)="sessionClick('mark as unwatched')" button>
+    </ion-item> -->
+    <!-- <ion-item (click)="sessionClick('mark as unwatched')" button>
       <ion-label color="primary">Mark as Unwatched</ion-label>
-    </ion-item>
-    <ion-item (click)="sessionClick('download video')" button>
+    </ion-item> -->
+    <!-- <ion-item (click)="sessionClick('download video')" button>
       <ion-label color="primary">Download Video</ion-label>
       <ion-icon slot="end" color="primary" size="small" name="cloud-download"></ion-icon>
-    </ion-item>
+    </ion-item> -->
     <ion-item (click)="sessionClick('leave feedback')" button>
       <ion-label color="primary">User Reviews</ion-label>
     </ion-item>
