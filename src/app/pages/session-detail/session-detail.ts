@@ -411,14 +411,73 @@ export class SessionDetailPage {
   },
   {
     courseName: 'Python',
-    id: '',
+    id: '7',
     syllabus: [
       {
-        title: 'Lesson 01 - Features of TypeScript',
+        title: 'Lesson 01 - Python Basics',
         line1: 'Introduction',
-        line2: 'Introduction to TypeScript',
-        line3: 'Introduction to Data Types',
-        line4: 'Let vs Const'
+        line2: 'Software Installations and Setup',
+        line3: 'Assisted Practice: Install Python IDLE',
+        line4: 'First Python Script',
+        line5: 'Data Types',
+        line6: 'Input /Output Functions',
+        line7: 'Assisted Practice: Basics of Python'
+      },
+      {
+        title: 'Lesson 02 - Data Operations',
+        line1: 'Data Type Conversion',
+        line2: 'Data Operations',
+        line3: 'Assisted Practice: Data Operations',
+        line4: 'String Methods',
+        line5: 'Assisted Practice: String Operations',
+        line6: 'List Methods',
+        line7: 'Assisted Practice: List Operations',
+        line8: 'Tuple Methods',
+        line9: 'Assisted Practice: Tuple Operations',
+        line10: 'Sets',
+        line11: 'Dictionaries',
+        line12: 'Assisted Practice: Dictionary Operations'
+      }
+      ,
+      {
+        title: 'Lesson 03 - Conditional Statements and Functions',
+        line1: 'Expressions',
+        line2: 'Conditional Statements',
+        line3: 'Assisted Practice: If else',
+        line4: 'Loops',
+        line5: 'Assisted Practice: For Loop Iterations',
+        line6: 'Assisted Practice: while Loop Iterations',
+        line7: 'Functions',
+        line8: 'Assisted Practice: Functions'
+      }
+      ,
+      {
+        title: 'Lesson 04 - Error Handling and File Operations',
+        line1: 'File Handling',
+        line2: 'Assisted Practice: File Handling',
+        line3: 'Errors and Exceptions',
+        line4: 'Assisted Practice: Errors and exceptions',
+        line5: 'Debugging in Python',
+        line6: 'Assisted Practice: Logging',
+        line7: 'pdb Module',
+        line8: 'Assisted Practice: pdb Print Command',
+        line9: 'Assisted Practice: next and step Commands',
+        line10: 'Assisted Practice: Breakpoints',
+        line11: 'Assisted Practice: unt Command',
+        line12: 'Assisted Practice: display Command',
+        line13: 'Assisted Practice: w Command',
+        line14: 'Object-Oriented Programming',
+        line15: 'Assisted Practice: Classes and Objects'
+      }
+      ,
+      {
+        title: 'Lesson 05 Shell Scripting and Django',
+        line1: 'Shell Scripting',
+        line2: 'Shell Scripting with Python',
+        line3: 'Assisted Practice: Shell Scripting in Python',
+        line4: 'Web Scraping',
+        line5: 'Django',
+        line6: 'Assisted Practice: Web scraping'
       }
     ]
   },
@@ -476,7 +535,7 @@ export class SessionDetailPage {
   },
   {
     courseName: 'Jquery',
-    id: '',
+    id: '16',
     syllabus: [
       {
         title: 'Lesson 01 - Features of TypeScript',
