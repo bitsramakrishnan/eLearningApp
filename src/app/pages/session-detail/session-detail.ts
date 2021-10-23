@@ -332,12 +332,68 @@ export class SessionDetailPage {
     id: '18',
     syllabus: [
       {
-        title: 'Lesson 01 - Features of TypeScript',
-        line1: 'Introduction',
-        line2: 'Introduction to TypeScript',
-        line3: 'Introduction to Data Types',
-        line4: 'Let vs Const'
+        title: 'Lesson 01 - Introduction to Java EE',
+        line1: 'Introduction to Java EE'
+      },
+      {
+        title: 'Lesson 02 - Java Servlet I',
+        line1: 'Servlets API, Interfaces, and Methods',
+        line2: 'Servlet Lifecycle',
+        line3: 'Configure and Deploy Servlet',
+        line4: 'ServletRequest, ServletResponse',
+        line5: 'ServletConfig, ServletContext',
+        line6: 'Servlet Scopes, Attributes, and Collaboration'
+      },
+      {
+        title: 'Lesson 03 - Java Servlet II',
+        line1: 'Session Management',
+        line2: 'Listeners in Java EE',
+        line3: 'Filters in Java EE'
+      },
+      {
+        title: 'Lesson 04 - Java Server Pages',
+        line1: 'JSP Lifecycle',
+        line2: 'Creating and Working with JSP Elements',
+        line3: 'Working with JSP Standard Action',
+        line4: 'JSTL and Custom Tag Libraries'
+      },
+      {
+        title: 'Lesson 05 - Introduction to Hibernate',
+        line1: 'Introduction to Hibernate',
+        line2: 'Hibernate CRUD Operation'
+      },
+      {
+        title: 'Lesson 06 - Hibernate Queries and Relationship',
+        line1: 'Hibernate Queries and Relationship',
+        line2: 'Mapping Relationship with Hibernate'
+      },
+      {
+        title: 'Lesson 07 - Introduction to Spring',
+        line1: 'Introduction to Spring',
+        line2: 'Dependency Injection, SpringBean Lifecycle, Wiring, and Scope'
+      },
+      {
+        title: 'Lesson 08 - Spring AOP',
+        line1: 'Introduction to Spring AOP (Aspect-Oriented Programming)',
+        line2: 'Configuring AOP in Java Application using AspectJ Approach'
+      },
+      {
+        title: 'Lesson 09 - Spring JDBC and Spring Hibernate',
+        line1: 'Spring JDBC Implementation in an Application',
+        line2: 'Spring Hibernate Template',
+        line3: 'Spring JDBC Transaction Management'
+      },
+      {
+        title: 'Lesson 10 - Spring MVC',
+        line1: 'Spring MVC Architecture, Components, and Framework',
+        line2: 'Spring MVC Program'
+      },
+      {
+        title: 'Lesson 11 - SOA and Web Services',
+        line1: 'Basics of SOA Architecture and Web Services',
+        line2: 'Creating SOAP-based and RESTful Web Services'
       }
+
     ]
   },
   {
