@@ -17,6 +17,7 @@ export class SpeakerListPage {
   ionViewDidEnter() {
     this.confData.getSpeakers().subscribe((speakers: any[]) => {
       this.speakers = speakers;
+      console.log(this.speakers);
       this.filteredSearch = Object.assign([], this.speakers);
     });
   }

@@ -12,7 +12,7 @@
     <ion-toolbar>
       <ion-title size="large">Courses</ion-title>
     </ion-toolbar>
-    <ion-searchbar showCancelButton="always" #searchInput [(ngModel)]="searchText"
+    <ion-searchbar class="mb-10px"showCancelButton="always" #searchInput [(ngModel)]="searchText"
       (ionChange)="updateSearch(searchInput.value)" (ionCancel)="showSearchbar = false" placeholder="Search Course">
     </ion-searchbar>
   </ion-header>
@@ -46,15 +46,15 @@
               <ion-item *ngFor="let session of speaker.sessions" detail="false"
                 routerLink="/app/tabs/speakers/session/{{session.id}}">
                 <ion-label>
-                  <h3>{{session.name}}</h3>
+                  <h3>{{session.name}} - {{session.id}}</h3>
                 </ion-label>
               </ion-item>
 
-              <ion-item detail="false" routerLink="/app/tabs/speakers/speaker-details/{{speaker.id}}">
+              <!-- <ion-item detail="false" routerLink="/app/tabs/speakers/speaker-details/{{speaker.id}}">
                 <ion-label>
                   <h3>About {{speaker.name}}</h3>
                 </ion-label>
-              </ion-item>
+              </ion-item> -->
             </ion-list>
           </ion-card-content>
 
