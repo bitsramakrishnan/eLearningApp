@@ -17,7 +17,6 @@ export class SpeakerListPage {
   ionViewDidEnter() {
     this.confData.getSpeakers().subscribe((speakers: any[]) => {
       this.speakers = speakers;
-      console.log(this.speakers);
       this.filteredSearch = Object.assign([], this.speakers);
     });
   }
@@ -26,7 +25,6 @@ export class SpeakerListPage {
     this.filteredSearch = Object.assign([], this.speakers).filter(
       item => item.courseName.toLowerCase().indexOf(value.toLowerCase()) > -1
     );
-    console.log(this.filteredSearch);
   }
 
 

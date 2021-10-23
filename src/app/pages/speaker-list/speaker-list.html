@@ -12,7 +12,7 @@
     <ion-toolbar>
       <ion-title size="large">Courses</ion-title>
     </ion-toolbar>
-    <ion-searchbar class="mb-10px"showCancelButton="always" #searchInput [(ngModel)]="searchText"
+    <ion-searchbar style="z-index:999999999999" class="mb-10px"showCancelButton="always" #searchInput [(ngModel)]="searchText"
       (ionChange)="updateSearch(searchInput.value)" (ionCancel)="showSearchbar = false" placeholder="Search Course">
     </ion-searchbar>
   </ion-header>
