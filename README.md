@@ -34,8 +34,8 @@ Tech Stack:
 
 | Material Design  | iOS  |
 | -----------------| -----|
-| ![Android Schedule](/resources/screenshots/android-schedule.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
-
+| ![Android Course](/resources/screenshots/ios-course.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
+![Android Course](/resources/screenshots/ios-course2.png) |
 ### Course Details
 
 | Material Design  | iOS  |
