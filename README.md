@@ -28,36 +28,36 @@ Tech Stack:
 
 | ios  | Android  |
 | -----------------| -----|
-| ![Android Course](/resources/screenshots/ios-course.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
+| ![Android Course](/resources/screenshots/ios-course.png) | ![iOS Course](/resources/screenshots/ios-schedule.png) |
 ![Android Course](/resources/screenshots/ios-course2.png) |
 ### Course Details
 
-| ios  | Android  |
+| Android  | ios  |
 | -----------------| -----|
-| ![Android Speakers](/resources/screenshots/android-speakers.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
+| ![Android Speakers](/resources/screenshots/ios-course-details1.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
 
 ### Schedule Page
-| ios  | Android  |
+| Android  | ios  |
 | -----------------| -----|
 | ![Android Speaker Detail](/resources/screenshots/android-speaker-detail.png) | ![iOS Speaker Detail](/resources/screenshots/ios-speaker-detail.png) |
 
 ### Enrollment
 
-| ios  | Android  |
+| Android  | ios  |
 | -----------------| -----|
 | ![Android About](/resources/screenshots/android-about.png) | ![iOS About](/resources/screenshots/ios-about.png) |
 
 ### Menu
-| ios  | Android  |
+| Android  | ios  |
 
 ### LogIn
 | ios  | Android  |
 
 ### SignUp
-| ios  | Android  |
+| Android  | ios  |
 
 ### AboutUs
-| ios  | Android  |
+| Android  | ios  |
 
 ### Progressive Web App
 
