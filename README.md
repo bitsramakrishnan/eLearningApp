@@ -45,7 +45,7 @@ Tech Stack:
 
 | Android  | ios  |
 | -----------------| -----|
-| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll.png) |
+| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll-screen.png) |
 
 ### Menu
  Android 
@@ -55,10 +55,8 @@ Tech Stack:
 | Android  | ios  |
 | ![Android AboutUS](/resources/screenshots/android-aboutus.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-aboutus.png) |
 
-### Other Screens
-| ios  | Android  |
-| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll.png) |
-
-
 ### Progressive Web App
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa1.jpg)
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa2.jpg)
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa3.jpg)
 
