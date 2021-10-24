@@ -13,3 +13,12 @@
 .list {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 600px) {
+  .signup-logo img {
+    width: auto;
+    height: auto !important;
+    margin-bottom: auto !important;
+  }
+  
+}
