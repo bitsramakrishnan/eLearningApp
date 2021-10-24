@@ -137,4 +137,12 @@ export class SchedulePage implements OnInit {
     await loading.onWillDismiss();
     fab.close();
   }
+
+  onEnrollClick() {
+    this.router.navigate(['/enroll'], { skipLocationChange: true });
+  }
+
+  onTrainingClick() {
+    this.router.navigate(['/enroll'], { skipLocationChange: true });
+  }
 }

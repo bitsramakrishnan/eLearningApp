@@ -32,7 +32,11 @@ const routes: Routes = [
     path: 'tutorial',
     loadChildren: () => import('./pages/tutorial/tutorial.module').then(m => m.TutorialModule),
     canLoad: [CheckTutorial]
+  },  {
+    path: 'enroll',
+    loadChildren: () => import('./pages/enroll/enroll.module').then( m => m.EnrollPageModule)
   }
+
 ];
 
 @NgModule({
