@@ -45,19 +45,20 @@ Tech Stack:
 
 | Android  | ios  |
 | -----------------| -----|
-| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-sourse-enroll.png) |
+| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll.png) |
 
 ### Menu
-| Android  | ios  |
-
-### LogIn
-| ios  | Android  |
-
-### SignUp
-| Android  | ios  |
+ Android 
+| ![Android Menu](/resources/screenshots/menu.jpeg)
 
 ### AboutUs
 | Android  | ios  |
+| ![Android AboutUS](/resources/screenshots/android-aboutus.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-aboutus.png) |
+
+### Other Screens
+| ios  | Android  |
+| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll.png) |
+
 
 ### Progressive Web App
 
