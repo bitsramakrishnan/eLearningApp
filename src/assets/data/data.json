@@ -7,10 +7,15 @@
           "time": "8:00 am",
           "sessions": [
             {
+              "courseName": "Angular",
+              "dateTime": "09 Nov - 31 Dec, 09am - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "Breakfast",
               "timeStart": "8:00 am",
               "timeEnd": "9:00 am",
               "location": "Dining Hall",
+              "description": "Angular course helps you understand the design of single-page applications and how Angular facilities their development. This Angular certification provides knowledge of concepts such as TypeScript, Bootstrap Grid System, dependency injections, SPA, forms, pipes, promises, observables, and Angular class testing.",
               "tracks": [
                 "Food"
               ],
@@ -22,9 +27,13 @@
           "time": "9:15 am",
           "sessions": [
             {
+              "courseName": "React JS",
+              "dateTime": "15 Nov - 30 Dec, 09Am - 05pm IST",
+              "fees": "14,000",
+              "batch":"Online",
               "name": "Getting Started with Ionic",
               "location": "Hall 2",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "description": "The main objective of this React course is to help you become familiar with the process and gain the skills you'll need to become a professional React developer. You will learn the fundamentals of React through self-paced and instructor-led training to understand and build React components and structure applications with Redux.",
               "speakerNames": [
                 "Ted Turtle"
               ],
@@ -41,9 +50,13 @@
           "time": "10:00 am",
           "sessions": [
             {
+              "courseName": "JavaScript",
+              "dateTime": "20 Nov - 25 Dec, 5pm - 08pm IST",
+              "fees": "10,000",
+              "batch":"Weekend",
               "name": "Migrating to Ionic",
               "location": "Hall 1",
-              "description": "MySQL is an open-source relational database management system (RDBMS). A relational database organizes data into one or more data tables in which data types may be related to each other; these relations help structure the data. MySQL is a relational database management system based on SQL – Structured Query Language. The application is used for a wide range of purposes, including data warehousing, e-commerce, and logging applications.",
+              "description": "Understand the JavaScript language & the Document Object Model. Alter, show, hide and move objects on a web page. Check information inputted into a form. Javascript allows programming to be performed without server interaction. Javascript can respond to events, such as button clicks. Javascript can validate data before sending out a request. Javascript can adjust an HTML document for special effects. Javascript can create cookies! Cookies can be used to store and retrieve information from the user's computer",
               "speakerNames": [
                 "Eva Eagle",
                 "Lionel Lion"
@@ -56,6 +69,10 @@
               "id": "5"
             },
             {
+              "courseName": "MySQL",
+              "dateTime": "22 Nov - 25 Dec, 10am - 12pm IST",
+              "fees": "11,000",
+              "batch":"Online",
               "name": "What's New in Angular",
               "location": "Hall 3",
               "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
@@ -70,6 +87,10 @@
               "id": "6"
             },
             {
+              "courseName": "Java",
+              "dateTime": "09 Nov - 31 Dec, 09Am - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "Ionic Pro",
               "location": "Grand Ballroom A",
               "description": "The main objective of this React course is to help you become familiar with the process and gain the skills you'll need to become a professional React developer. You will learn the fundamentals of React through self-paced and instructor-led training to understand and build React components and structure applications with Redux.",
@@ -89,6 +110,10 @@
           "time": "11:00 am",
           "sessions": [
             {
+              "courseName": "SpringBoot",
+              "dateTime": "25 Nov - 25 Jan, 12Am - 05pm IST",
+              "fees": "12,500",
+              "batch":"Weekend",
               "name": "Ionic Workshop",
               "location": "Hall 1",
               "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
@@ -109,6 +134,10 @@
           "time": "12:00 pm",
           "sessions": [
             {
+              "courseName": "Python",
+              "dateTime": "16 Nov - 30 Dec, 08am - 12pm IST",
+              "fees": "15,000",
+              "batch":"Weekend",
               "name": "Lunch",
               "location": "Dining Hall",
               "description": "Come grab lunch with all the Ionic fanatics and talk all things Ionic",
@@ -125,6 +154,10 @@
           "time": "1:00 pm",
           "sessions": [
             {
+              "courseName": "Html",
+              "dateTime": "14 Nov - 31 Jan, 03pm - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "Ionic in the Enterprise",
               "location": "Hall 1",
               "description": "This MongoDB® Training Certification course will help you master one of the most popular NoSQL databases. This course is designed to equip you with skills of a Mongo DB experienced professional. You will gain knowledge in mastering data modelling, ingestion, query and Sharding, and much more, to become job ready. The course covers a range of NoSQL and MongoDB® topics which will help you gain various development, administering, and engineering skills.",
@@ -139,6 +172,10 @@
               "id": "13"
             },
             {
+              "courseName": "CSS",
+              "dateTime": "30 Nov - 31 Dec, 07Am - 01pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "Ionic Worldwide",
               "location": "Hall 1",
               "description": "Spring Boot is an open source Java-based framework used to create a micro Service. It is developed by Pivotal Team and is used to build stand-alone and production ready spring applications.",
@@ -153,9 +190,13 @@
               "id": "14"
             },
             {
+              "courseName": "AWS",
+              "dateTime": "15 Dec - 31 Jan, 11am - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "The Ionic Package",
               "location": "Grand Ballroom B",
-              "description": "AWS Developer training builds upon the skills learned from the AWS Technical Essentials course. This course will teach you how to write code and design scalable applications, implement application security and testing, and develop expertise with key AWS components such as S3, Dynamo DB, Elastic Beanstalk, and CloudFormation",
+              "description": "Angular course helps you understand the design of single-page applications and how Angular facilities their development. This Angular certification provides knowledge of concepts such as TypeScript, Bootstrap Grid System, dependency injections, SPA, forms, pipes, promises, observables, and Angular class testing.",
               "speakerNames": [
                 "Molly Mouse",
                 "Burt Bear"
@@ -173,6 +214,10 @@
           "time": "2:00 pm",
           "sessions": [
             {
+              "courseName": "MongoDB",
+              "dateTime": "09 Nov - 31 Dec, 09Am - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "Ionic Documentation",
               "location": "Grand Ballroom B",
               "description": "JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user",
@@ -187,6 +232,10 @@
               "id": "17"
             },
             {
+              "courseName": "Jquery",
+              "dateTime": " 20 Dec - 3 Dec, 09Am - 05pm IST",
+              "fees": "12,000",
+              "batch":"Weekend",
               "name": "UX in Ionic",
               "location": "Hall 3",
               "description": "This Java Training is designed to guide you through the concepts of Java from introductory techniques to advanced programming skills. This Java course will also provide you with the knowledge of Core Java 8, operators, arrays, loops, methods, and constructors while giving you hands-on experience in JDBC and JUnit framework.",
@@ -200,25 +249,6 @@
                 "Design"
               ],
               "id": "18"
-            }
-          ]
-        },
-        {
-          "time": "3:00",
-          "sessions": [
-            {
-              "name": "Angular Directives in Ionic",
-              "location": "Hall 1",
-              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-              "speakerNames": [
-                "Ted Turtle"
-              ],
-              "timeStart": "3:00 pm",
-              "timeEnd": "3:30 pm",
-              "tracks": [
-                "Angular"
-              ],
-              "id": "19"
             }
           ]
         }
@@ -401,39 +431,39 @@
       "icon": "logo-angular"
     },
     {
-      "name": "Documentation",
-      "icon": "document"
+      "name": "React JS",
+      "icon": "logo-react"
     },
     {
-      "name": "Food",
-      "icon": "restaurant"
+      "name": "JavaScript",
+      "icon": "logo-javascript"
     },
     {
-      "name": "Ionic",
+      "name": "MySQL",
       "icon": "logo-ionic"
     },
     {
-      "name": "Tooling",
+      "name": "Java",
       "icon": "hammer"
     },
     {
-      "name": "Design",
-      "icon": "color-palette"
+      "name": "SpringBoot",
+      "icon": "leaf-outline"
     },
     {
-      "name": "Services",
-      "icon": "cog"
+      "name": "Python",
+      "icon": "cog-outline"
     },
     {
-      "name": "Workshop",
-      "icon": "construct"
+      "name": "HTML",
+      "icon": "logo-html5"
     },
     {
-      "name": "Communication",
-      "icon": "call"
+      "name": "CSS",
+      "icon": "logo-css3"
     },
     {
-      "name": "Navigation",
+      "name": "AWS",
       "icon": "compass"
     }
   ]

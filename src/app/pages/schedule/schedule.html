@@ -5,11 +5,11 @@
     </ion-buttons>
     <ion-segment *ngIf="ios" [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
-        All
+        All Courses
       </ion-segment-button>
-      <ion-segment-button value="favorites">
+      <!-- <ion-segment-button value="favorites">
         Favorites
-      </ion-segment-button>
+      </ion-segment-button> -->
     </ion-segment>
     <ion-title *ngIf="!ios && !showSearchbar">Schedule</ion-title>
     <ion-searchbar *ngIf="showSearchbar" showCancelButton="always" [(ngModel)]="queryText" (ionChange)="updateSchedule()" (ionCancel)="showSearchbar = false" placeholder="Search"></ion-searchbar>
@@ -46,7 +46,44 @@
       <ion-searchbar [(ngModel)]="queryText" (ionChange)="updateSchedule()" placeholder="Search"></ion-searchbar>
     </ion-toolbar>
   </ion-header>
+ 
 
+  <ion-card  *ngFor="let group of groups">
+    <div *ngFor="let session of group.sessions">
+      <ion-item>
+        <ion-icon name="layers-outline"></ion-icon>
+        <label class="ml-5px">{{session.courseName}}</label>
+      </ion-item>
+  
+      <ion-item >
+        <ion-icon name="calendar-outline"></ion-icon>
+        <ion-label class="ml-5px"> {{session.dateTime}}</ion-label>
+      </ion-item>
+    
+      <ion-item >
+        <ion-icon name="cash-outline"></ion-icon>
+        <ion-label class="ml-5px">{{session.fees}} ₹</ion-label>
+      </ion-item>
+      <ion-item >
+        <ion-icon name="book-outline"></ion-icon>
+        <ion-label class="ml-5px">Batch:- {{session.batch}}</ion-label>
+      </ion-item>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <ion-button shape="round" expand="full" class="ion-text-wrap">Enroll</ion-button>
+          </ion-col>
+          <ion-col size="6">
+            <ion-button shape="round" color="medium" expand="full" class="ion-text-wrap">Access Training Materials</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+
+  </ion-card>
+
+
+<!-- 
   <ion-list #scheduleList [hidden]="shownSessions === 0">
     <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
       <ion-item-divider sticky>
@@ -59,7 +96,9 @@
         [hidden]="session.hide">
         <ion-item routerLink="/app/tabs/schedule/session/{{session.id}}">
           <ion-label>
-            <h3>{{session.name}}</h3>
+            <h3>Course Name: {{session.name}}</h3>
+            <h6>Course Name: {{session.name}}</h6>
+
             <p>
               {{session.timeStart}} &mdash; {{session.timeEnd}}: {{session.location}}
             </p>
@@ -75,8 +114,9 @@
           </ion-item-option>
         </ion-item-options>
       </ion-item-sliding>
+      
     </ion-item-group>
-  </ion-list>
+  </ion-list> -->
 
   <ion-list-header [hidden]="shownSessions > 0">
     No Sessions Found
