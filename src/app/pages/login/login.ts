@@ -14,7 +14,7 @@ import { UserOptions } from '../../interfaces/user-options';
   styleUrls: ['./login.scss'],
 })
 export class LoginPage {
-  login: UserOptions = { username: '', password: '' };
+  login: UserOptions = { username: '', email: '', password: '', confirmPassword: '' };
   submitted = false;
 
   constructor(
@@ -27,11 +27,11 @@ export class LoginPage {
 
     if (form.valid) {
       this.userData.login(this.login.username);
-      this.router.navigateByUrl('/app/tabs/schedule');
+      this.router.navigateByUrl('/app/tabs/courses', { skipLocationChange: true });
     }
   }
 
   onSignup() {
-    this.router.navigateByUrl('/signup');
+    this.router.navigateByUrl('/signup', { skipLocationChange: true });
   }
 }

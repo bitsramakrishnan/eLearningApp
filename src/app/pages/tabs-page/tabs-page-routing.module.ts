@@ -23,7 +23,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'speakers',
+        path: 'courses',
         children: [
           {
             path: '',
@@ -59,7 +59,7 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/app/tabs/schedule',
+        redirectTo: '/app/tabs/courses',
         pathMatch: 'full'
       }
     ]

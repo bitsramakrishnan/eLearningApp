@@ -5,9 +5,20 @@
 }
 
 .signup-logo img {
-  max-width: 150px;
+  width: 360px;
+  height: 354px !important;
+  margin-bottom: -15% !important;
 }
 
 .list {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 1281px) {
+  .signup-logo img {
+    width: auto;
+    height: auto !important;
+    margin-bottom: auto !important;
+  }
+  
 }

@@ -137,4 +137,16 @@ export class SchedulePage implements OnInit {
     await loading.onWillDismiss();
     fab.close();
   }
+
+  onEnrollClick() {
+    this.router.navigate(['/enroll'], { skipLocationChange: true });
+  }
+
+ async onTrainingClick() {
+    const toast = await this.toastCtrl.create({
+      message: 'Currently course not yet started, material will be available once trainings started.',
+      duration: 5000
+    });
+    await toast.present();
+  }
 }

@@ -3,21 +3,21 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>Support</ion-title>
+    <ion-title style="text-align:center">eLearningApp - Support</ion-title>
   </ion-toolbar>
 
 </ion-header>
 
 <ion-content>
   <div class="support-logo">
-    <img src="assets/img/appicon.svg" alt="Ionic Logo">
+    <img src="assets/img/logo/eLearing_Logo1.jpg" alt="Ionic Logo">
   </div>
 
   <form #submitForm="ngForm" novalidate (ngSubmit)="submit(submitForm)">
     <ion-list lines="none">
       <ion-item>
         <ion-label position="stacked" color="primary">Enter your support message below</ion-label>
-        <ion-textarea [(ngModel)]="supportMessage" name="supportQuestion" #supportQuestion="ngModel" rows="6" required></ion-textarea>
+        <ion-textarea class="textareaclass" [(ngModel)]="supportMessage" name="supportQuestion" #supportQuestion="ngModel" rows="6" required></ion-textarea>
       </ion-item>
     </ion-list>
 
