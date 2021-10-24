@@ -144,7 +144,7 @@ export class SchedulePage implements OnInit {
 
  async onTrainingClick() {
     const toast = await this.toastCtrl.create({
-      message: 'Please Enroll to Access Training Material.',
+      message: 'Currently course not yet started, material will be available once trainings started.',
       duration: 5000
     });
     await toast.present();
