@@ -13,6 +13,15 @@ Information Technology by accessing or attending the online trainings.
 * Enrollment
 * Training Material Resources
 
+## Technical Details :
+
+GIT Hub URL (Code Repository): https://github.com/bitsramakrishnan/eLearningApp.git
+
+Tech Stack:
+	  Angular, Java Script, HTLM, CSS,
+    IONIC Framework, Visual Studio Code,           
+    Cloud Deployment (AWS) 
+
 ## App Preview
 
 
