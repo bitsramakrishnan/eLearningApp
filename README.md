@@ -22,38 +22,31 @@ Tech Stack:
     IONIC Framework, Visual Studio Code,           
     Cloud Deployment (AWS) 
 
-## App Preview
-
+ ###  IOS  - Screenshots
 ### Course Page
 
-| ios  | Android  |
-| -----------------| -----|
-| ![ios Course](/resources/screenshots/ios-course.png) | ![Android Course](/resources/screenshots/android-course.jpeg) |
-![ios Course](/resources/screenshots/ios-course2.png) |
+![ios Course](/resources/screenshots/ios-course.png) 
+![ios Course](/resources/screenshots/ios-course2.png) 
 ### Course Details
-
-| Android  | ios  |
-| -----------------| -----|
-| ![Android Courses](/resources/screenshots/android-course-details.jpeg) | ![iOS Courses](/resources/screenshots/ios-course-details1.png) |
+ ![iOS Courses](/resources/screenshots/ios-course-details1.png) 
 
 ### Schedule Page
-| Android  | ios  |
-| -----------------| -----|
-| ![Android Schedule Page](/resources/screenshots/android-schedule.jpeg) | ![iOS Schedule page](/resources/screenshots/ios-course-schedule.png) |
+ ![iOS Schedule page](/resources/screenshots/ios-course-schedule.png) 
 
 ### Enrollment
-
-| Android  | ios  |
-| -----------------| -----|
-| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-course-enroll-screen.png) |
-
-### Menu
- Android 
-| ![Android Menu](/resources/screenshots/menu.jpeg)
+ ![iOS Enrollment](/resources/screenshots/ios-course-enroll-screen.png) 
 
 ### AboutUs
-| Android  | ios  |
-| ![Android AboutUS](/resources/screenshots/android-aboutus.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-aboutus.png) |
+ ![iOS Enrollment](/resources/screenshots/ios-aboutus.png) |
+
+
+ ###  Android  - Screenshots
+ ![Android Course](/resources/screenshots/android-course.jpeg) 
+ ![Android Courses](/resources/screenshots/android-course-details.jpeg) 
+ ![Android Schedule Page](/resources/screenshots/android-schedule.jpeg) 
+ ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) 
+ ![Android Menu](/resources/screenshots/menu.jpeg)
+ ![Android AboutUS](/resources/screenshots/android-aboutus.jpeg) 
 
 ### Progressive Web App
 | ![PWA - Progressive WebApp](/resources/screenshots/pwa1.JPG)
