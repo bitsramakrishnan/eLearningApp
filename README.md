@@ -24,43 +24,40 @@ Tech Stack:
 
 ## App Preview
 
-
-| Material Design  | iOS  |
-| -----------------| -----|
-| ![Android Menu](/resources/screenshots/android-menu.png) | ![iOS Menu](/resources/screenshots/ios-menu.png) |
-
-
 ### Course Page
 
-| Material Design  | iOS  |
+| ios  | Android  |
 | -----------------| -----|
 | ![Android Course](/resources/screenshots/ios-course.png) | ![iOS Schedule](/resources/screenshots/ios-schedule.png) |
 ![Android Course](/resources/screenshots/ios-course2.png) |
 ### Course Details
 
-| Material Design  | iOS  |
+| ios  | Android  |
 | -----------------| -----|
 | ![Android Speakers](/resources/screenshots/android-speakers.png) | ![iOS Speakers](/resources/screenshots/ios-speakers.png) |
 
 ### Schedule Page
-
-| Material Design  | iOS  |
+| ios  | Android  |
 | -----------------| -----|
 | ![Android Speaker Detail](/resources/screenshots/android-speaker-detail.png) | ![iOS Speaker Detail](/resources/screenshots/ios-speaker-detail.png) |
 
 ### Enrollment
 
-| Material Design  | iOS  |
+| ios  | Android  |
 | -----------------| -----|
 | ![Android About](/resources/screenshots/android-about.png) | ![iOS About](/resources/screenshots/ios-about.png) |
 
 ### Menu
+| ios  | Android  |
 
 ### LogIn
+| ios  | Android  |
 
 ### SignUp
+| ios  | Android  |
 
 ### AboutUs
+| ios  | Android  |
 
 ### Progressive Web App
 
