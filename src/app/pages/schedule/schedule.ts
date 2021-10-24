@@ -142,7 +142,11 @@ export class SchedulePage implements OnInit {
     this.router.navigate(['/enroll'], { skipLocationChange: true });
   }
 
-  onTrainingClick() {
-    this.router.navigate(['/enroll'], { skipLocationChange: true });
+ async onTrainingClick() {
+    const toast = await this.toastCtrl.create({
+      message: 'Please Enroll to Access Training Material.',
+      duration: 5000
+    });
+    await toast.present();
   }
 }
