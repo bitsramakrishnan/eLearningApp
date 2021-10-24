@@ -38,9 +38,10 @@ export class SupportPage {
       const toast = await this.toastCtrl.create({
         message: 'Your support request has been sent.',
         duration: 5000
-      }).then( () => { this.router.navigateByUrl('/app/tabs/speakers');});
+      });
 
-      // await toast.present();
+      await toast.present();
+      this.router.navigateByUrl('/app/tabs/speakers');
     }
   }
 
