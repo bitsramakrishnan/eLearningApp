@@ -28,24 +28,24 @@ Tech Stack:
 
 | ios  | Android  |
 | -----------------| -----|
-| ![ios Course](/resources/screenshots/ios-course.png) | ![Android Course](/resources/screenshots/android-course.png) |
+| ![ios Course](/resources/screenshots/ios-course.png) | ![Android Course](/resources/screenshots/android-course.jpeg) |
 ![ios Course](/resources/screenshots/ios-course2.png) |
 ### Course Details
 
 | Android  | ios  |
 | -----------------| -----|
-| ![Android Courses](/resources/screenshots/android-course-details.png) | ![iOS Courses](/resources/screenshots/ios-course-details1.png) |
+| ![Android Courses](/resources/screenshots/android-course-details.jpeg) | ![iOS Courses](/resources/screenshots/ios-course-details1.png) |
 
 ### Schedule Page
 | Android  | ios  |
 | -----------------| -----|
-| ![Android Schedule Page](/resources/screenshots/android-schedule.png) | ![iOS Schedule page](/resources/screenshots/ios-course-schedule) |
+| ![Android Schedule Page](/resources/screenshots/android-schedule.jpeg) | ![iOS Schedule page](/resources/screenshots/ios-course-schedule.png) |
 
 ### Enrollment
 
 | Android  | ios  |
 | -----------------| -----|
-| ![Android Enrollment](/resources/screenshots/android-course-enroll.png) | ![iOS Enrollment](/resources/screenshots/ios-sourse-enroll.png) |
+| ![Android Enrollment](/resources/screenshots/android-course-enroll.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-sourse-enroll.png) |
 
 ### Menu
 | Android  | ios  |
