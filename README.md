@@ -56,7 +56,7 @@ Tech Stack:
 | ![Android AboutUS](/resources/screenshots/android-aboutus.jpeg) | ![iOS Enrollment](/resources/screenshots/ios-aboutus.png) |
 
 ### Progressive Web App
-| ![PWA - Progressive WebApp](/resources/screenshots/pwa1.jpg)
-| ![PWA - Progressive WebApp](/resources/screenshots/pwa2.jpg)
-| ![PWA - Progressive WebApp](/resources/screenshots/pwa3.jpg)
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa1.JPG)
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa2.JPG)
+| ![PWA - Progressive WebApp](/resources/screenshots/pwa3.JPG)
 
