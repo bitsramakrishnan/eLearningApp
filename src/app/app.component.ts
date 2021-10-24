@@ -20,14 +20,14 @@ import { UserData } from './providers/user-data';
 export class AppComponent implements OnInit {
   appPages = [
     {
+      title: 'Courses',
+      url: '/app/tabs/courses',
+      icon: 'people'
+    },
+    {
       title: 'Schedule',
       url: '/app/tabs/schedule',
       icon: 'calendar'
-    },
-    {
-      title: 'Courses',
-      url: '/app/tabs/speakers',
-      icon: 'people'
     },
     {
       title: 'About',
@@ -112,13 +112,13 @@ export class AppComponent implements OnInit {
 
   logout() {
     this.userData.logout().then(() => {
-      return this.router.navigateByUrl('/app/tabs/speakers');
+      return this.router.navigateByUrl('/app/tabs/courses', { skipLocationChange: true });
     });
   }
 
   openTutorial() {
     this.menu.enable(false);
     this.storage.set('ion_did_tutorial', false);
-    this.router.navigateByUrl('/tutorial');
+    this.router.navigateByUrl('/tutorial', { skipLocationChange: true });
   }
 }

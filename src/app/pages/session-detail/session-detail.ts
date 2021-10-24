@@ -578,12 +578,10 @@ export class SessionDetailPage {
     });
 
     this.selectedSyllabus = this.getSelectedSubjectSyllabus();
-
-    console.log(this.selectedSyllabus);
   }
 
   ionViewDidEnter() {
-    this.defaultHref = `/app/tabs/speakers`;
+    this.defaultHref = `/app/tabs/courses`;
   }
 
   sessionClick(item: string) {

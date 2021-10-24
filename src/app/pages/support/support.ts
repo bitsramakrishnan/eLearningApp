@@ -41,7 +41,7 @@ export class SupportPage {
       });
 
       await toast.present();
-      this.router.navigateByUrl('/app/tabs/speakers');
+      this.router.navigateByUrl('/app/tabs/courses', {skipLocationChange: true});
     }
   }
 

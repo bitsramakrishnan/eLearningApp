@@ -27,11 +27,11 @@ export class LoginPage {
 
     if (form.valid) {
       this.userData.login(this.login.username);
-      this.router.navigateByUrl('/app/tabs/speakers');
+      this.router.navigateByUrl('/app/tabs/courses', { skipLocationChange: true });
     }
   }
 
   onSignup() {
-    this.router.navigateByUrl('/signup');
+    this.router.navigateByUrl('/signup', { skipLocationChange: true });
   }
 }
