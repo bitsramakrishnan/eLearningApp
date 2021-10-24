@@ -14,10 +14,10 @@
 
   <div class="about-header">
     <!-- Instead of loading an image each time the select changes, use opacity to transition them -->
-    <div class="about-image madison" [ngStyle]="location === 'madison' && {'opacity': '1'}"></div>
-    <div class="about-image austin" [ngStyle]="location === 'austin' && {'opacity': '1'}"></div>
-    <div class="about-image chicago" [ngStyle]="location === 'chicago' && {'opacity': '1'}"></div>
-    <div class="about-image seattle" [ngStyle]="location === 'seattle' && {'opacity': '1'}"></div>
+    <div class="about-image chennai" [ngStyle]="location === 'chennai' && {'opacity': '1'}"></div>
+    <div class="about-image bangalore" [ngStyle]="location === 'bangalore' && {'opacity': '1'}"></div>
+    <div class="about-image mumbai" [ngStyle]="location === 'mumbai' && {'opacity': '1'}"></div>
+    <div class="about-image hyderabad" [ngStyle]="location === 'hyderabad' && {'opacity': '1'}"></div>
   </div>
 
   <div class="about-info">
@@ -40,10 +40,10 @@
           Location
         </ion-label>
         <ion-select [(ngModel)]="location" [interfaceOptions]="selectOptions">
-          <ion-select-option value="madison">Chennai</ion-select-option>
-          <ion-select-option value="austin">Bangalore</ion-select-option>
-          <ion-select-option value="chicago">Mumbai</ion-select-option>
-          <ion-select-option value="seattle">Hyderabad</ion-select-option>
+          <ion-select-option value="chennai">Chennai</ion-select-option>
+          <ion-select-option value="bangalore">Bangalore</ion-select-option>
+          <ion-select-option value="mumbai">Mumbai</ion-select-option>
+          <ion-select-option value="hyderabad">Hyderabad</ion-select-option>
         </ion-select>
       </ion-item>
       <!-- <ion-item>
