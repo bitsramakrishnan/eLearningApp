@@ -1,0 +1,4 @@
+All variables should in camel case
+All constants should be Upper case
+All Class names should be Title case
+All classes should have To_JSON method which reutrn object serialised in JSON format
