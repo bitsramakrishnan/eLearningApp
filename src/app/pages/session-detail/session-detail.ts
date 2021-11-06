@@ -603,13 +603,5 @@ export class SessionDetailPage {
   }
 
 
-  getSelectedSubjectSyllabus() {
-    const result = this.syllabusDetails.filter((syllabus) => {
-      return syllabus.id === this.sessionId;
-    });
-    const courseNameKey = 'courseName';
-    this.selectedCourseName = result[0][courseNameKey];
-    const key = 'syllabus';
-    return result[0][key];
-  }
+
 }

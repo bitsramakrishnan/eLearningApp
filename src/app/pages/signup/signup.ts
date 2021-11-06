@@ -22,12 +22,5 @@ export class SignupPage {
     public userData: UserData
   ) { }
 
-  onSignup(form: NgForm) {
-    this.submitted = true;
 
-    if (form.valid) {
-      this.userData.signup(this.signup.username);
-      this.router.navigateByUrl('/app/tabs/courses', {skipLocationChange: true});
-    }
-  }
 }
