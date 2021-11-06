@@ -28,22 +28,7 @@ export class SupportPage {
     await toast.present();
   }
 
-  async submit(form: NgForm) {
-    this.submitted = true;
 
-    if (form.valid) {
-      this.supportMessage = '';
-      this.submitted = false;
-
-      const toast = await this.toastCtrl.create({
-        message: 'Your support request has been sent.',
-        duration: 5000
-      });
-
-      await toast.present();
-      this.router.navigateByUrl('/app/tabs/courses', {skipLocationChange: true});
-    }
-  }
 
   // If the user enters text in the support question and then navigates
   // without submitting first, ask if they meant to leave the page
