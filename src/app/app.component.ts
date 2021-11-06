@@ -96,7 +96,19 @@ export class AppComponent implements OnInit {
     }, 300);
   }
 
-  
+  listenForLoginEvents() {
+    window.addEventListener('user:login', () => {
+      this.updateLoggedInStatus(true);
+    });
+
+    window.addEventListener('user:signup', () => {
+      this.updateLoggedInStatus(true);
+    });
+
+    window.addEventListener('user:logout', () => {
+      this.updateLoggedInStatus(false);
+    });
+  } 
 
   logout() {
     this.userData.logout().then(() => {
